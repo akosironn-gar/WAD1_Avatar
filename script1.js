@@ -18,5 +18,4 @@ profileCard.appendChild(img);
 profileCard.appendChild(name);
 profileCard.appendChild(bio);
 
-
 profileContainer.appendChild(profileCard); 

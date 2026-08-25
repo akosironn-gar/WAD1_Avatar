@@ -13,11 +13,6 @@ body {
     min-height: 1000px;
 }
 
-#profile-container {
-    display: flex;
-    align-items: center;
-}
-
 .profile-card {
     width: 320px;
     background-color: #151515;
