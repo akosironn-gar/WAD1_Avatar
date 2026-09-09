@@ -1,5 +1,3 @@
-// Create the profile card
-
 const profileContainer = document.getElementById("profile-container");
 
 const profileCard = document.createElement("div");
@@ -25,7 +23,6 @@ profileCard.appendChild(bio);
 profileContainer.appendChild(profileCard);
 
 
-//Live Name Preview
 
 const nameInput = document.getElementById("nameInput");
 const welcomeMessage = document.getElementById("welcomeMessage");
@@ -35,7 +32,6 @@ nameInput.addEventListener("input", function() {
 });
 
 
-//Handle Form Submission
 
 const studentForm = document.getElementById("studentForm");
 const courseInput = document.getElementById("courseInput");
@@ -49,7 +45,6 @@ studentForm.addEventListener("submit", function(event) {
 });
 
 
-//Toggle the Theme
 
 const themeButton = document.getElementById("themeButton");
 
@@ -60,7 +55,6 @@ themeButton.addEventListener("click", function() {
 });
 
 
-//Keyboard Challenge
 
 document.addEventListener("keydown", function(event) {
 
